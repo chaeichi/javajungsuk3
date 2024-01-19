@@ -28,6 +28,6 @@ class OperatorEx30 {
 
         dec = 8;
         System.out.printf("%d >> %2d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0));
-        System.out.printf("%d >> %2d = %4d \t%s%n", dec, 0, dec >> 32, toBinaryString(dec >> 32));
+        System.out.printf("%d >> %2d = %4d \t%s%n", dec, 32, dec >> 32, toBinaryString(dec >> 32));
     }
 }
