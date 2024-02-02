@@ -9,8 +9,8 @@ class Exercise4_11 {
         for(int i=0; i<8; i++) {
             num3 = num1 + num2; // 세 번째 값을 첫 번째와 두 번째 값을 더해서 구한다.
             System.out.print(", " + num3); // 세 번째 값 출력
-            num1 = num2; // 두 번째 값을 첫번째 값에 넣는다.
-            num2 = num3; // 세 번째 값을 두번째 값에 넣는다.
+            num1 = num2; // 두 번째 값을 첫 번째 값에 넣는다.
+            num2 = num3; // 세 번째 값을 두 번째 값에 넣는다.
         }
     }
 }
