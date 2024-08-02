@@ -5,4 +5,12 @@ class Student {
     int kor; // 국어점수
     int eng; // 영어점수
     int math; // 수학점수
+
+    int getTotal() {
+        return kor + eng + math;
+    }
+
+    float getAverage() {
+        return Math.round((getTotal() / 3.0f) * 10) / 10.0f;
+    }
 }
