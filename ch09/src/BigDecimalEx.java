@@ -13,7 +13,7 @@ class BigDecimalEx {
         System.out.print(",\tprecision=" + bd1.precision());
         System.out.println();
 
-        System.out.print("bd2=" + bd1);
+        System.out.print("bd2=" + bd2);
         System.out.print(",\tvalue=" + bd2.unscaledValue());
         System.out.print(",\tscale=" + bd2.scale());
         System.out.print(",\tprecision=" + bd2.precision());
